@@ -108,6 +108,9 @@ const END_SESSION_MS = 30 * 60 * 1000; // se passar 30 minutos e ningém respode
 const WARNING_MS = 15 * 60 * 1000;     // se passar 15 minutos a mensagem de alerta que vai encerrar a sessão se não falar nada em 15 minutos vai aparecer
 // ESCOLHA O TEMPO DA FORMA QUE PREFERIR
 
+
+
+
 setInterval(async () => {
     const now = Date.now();
 
